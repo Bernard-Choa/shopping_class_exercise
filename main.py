@@ -1,3 +1,5 @@
+from shop_class import FancyFood
+
 def fancy_food_list():
     items_ordered = int(input("How many items will you order today? "))
     while items_ordered < 1:
